@@ -1,0 +1,21 @@
+task_description = input("Input a sinlge task ")
+task_priority = input("Input priority (high, medium, low) ")
+time_bound = input("Is the task time bound? ")
+
+match task_priority:
+    case "high":
+        if time_bound == "yes":
+            print(f"{task_description}' is a high priority task that requires immediate attention today!")
+        else:
+            print("you still have time")
+    case "meduim":
+        if time_bound == "yes":
+            print("Get involved")
+        else:
+            print("nothing to worry about")
+    case "low":
+        if time_bound == "yes":
+            print("You still have to do it anyways")
+        else:
+            print("Note: 'Read a book' is a low priority task. Consider completing it when you have free time.")
+        
