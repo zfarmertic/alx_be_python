@@ -18,4 +18,6 @@ match Priority:
             print("You still have to do it anyways")
         else:
             print("Note: 'Read a book' is a low priority task. Consider completing it when you have free time.")
+    case _:
+        print("")
         
