@@ -1,6 +1,6 @@
 task = input("Enter your task: ")
 priority = input("Priority (high, medium, low): ")
-time_bound = input("Is it time-bound? (yes/no): ")
+time-bound = input("Is it time-bound? (yes/no): ")
 
 is_time_bound = " "
 priority_msg = " "
@@ -15,9 +15,9 @@ match priority:
     case _:
         priority_msg = f"Task {task} is unrecognized"
 
-if time_bound == "yes":
+if time-bound == "yes":
     is_time_bound = " that requires immediate attention today"
-elif time_bound == "no":
+elif time-bound == "no":
     is_time_bound = ", which can be scheduled later this week"
 else:
     is_time_bound = ", but the time-sensitivity is unclear"
