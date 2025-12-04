@@ -14,7 +14,7 @@ def main():
     while True:
         display_menu()
         break
-    choice = input("Enter Your choice: ")
+    choice = int(input("Enter Your choice: "))
 
     if choice == 1:
         item = input("what do you want to add ")
