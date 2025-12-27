@@ -14,6 +14,6 @@ class TestCalc(unnittest.TestCase):
     def test_division(self):
         self.assertEqual(self.calc.divide(2, 2), 1)
         self.assertEqual(self.calc.divide(4, 2), 2)
-    def test_division(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(2, 2), 4)
         self.assertEqual(self.calc.multiply(4, 2), 8)
