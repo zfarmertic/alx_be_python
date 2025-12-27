@@ -1,4 +1,4 @@
-import unnittest
+import unittest
 from simple_calculator import SimpleCalculator
 
 class TestCalc(unnittest.TestCase):
